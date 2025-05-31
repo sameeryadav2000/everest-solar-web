@@ -23,92 +23,92 @@ export interface TeamMember {
 }
 
 // Active projects data
-export const activeCommercialProjects: ProjectData[] = [
-  {
-    id: "heritage-hills",
-    projectType: "PRIVATE PROJECT",
-    title: "Heritage Hills",
-    location: "Somers, NY",
-    systemSize: "33.8 kW DC",
-    imageSrc: "/back_image.jpg",
-    imageAlt: "Heritage Hills Solar Installation",
-    linkHref: "/projects/heritage-hills",
-  },
-  {
-    id: "woodbury-commons",
-    projectType: "COMMERCIAL PROJECT",
-    title: "Woodbury Commons",
-    location: "Central Valley, NY",
-    systemSize: "150.2 kW DC",
-    imageSrc: "/images/projects/woodbury-commons.jpg",
-    imageAlt: "Woodbury Commons Commercial Solar Installation",
-    linkHref: "/projects/woodbury-commons",
-  },
-  {
-    id: "white-plains-hospital",
-    projectType: "HEALTHCARE PROJECT",
-    title: "White Plains Hospital",
-    location: "White Plains, NY",
-    systemSize: "87.5 kW DC",
-    imageSrc: "/images/projects/white-plains-hospital.jpg",
-    imageAlt: "White Plains Hospital Solar Installation",
-    linkHref: "/projects/white-plains-hospital",
-  },
-  {
-    id: "montauk-point",
-    projectType: "GOVERNMENT PROJECT",
-    title: "Montauk Point Lighthouse",
-    location: "Montauk, NY",
-    systemSize: "42.3 kW DC",
-    imageSrc: "/images/projects/montauk-point.jpg",
-    imageAlt: "Montauk Point Lighthouse Solar Installation",
-    linkHref: "/projects/montauk-point",
-  },
-];
+// export const activeCommercialProjects: ProjectData[] = [
+//   {
+//     id: "heritage-hills",
+//     projectType: "PRIVATE PROJECT",
+//     title: "Heritage Hills",
+//     location: "Somers, NY",
+//     systemSize: "33.8 kW DC",
+//     imageSrc: "/back_image.jpg",
+//     imageAlt: "Heritage Hills Solar Installation",
+//     linkHref: "/projects/heritage-hills",
+//   },
+//   {
+//     id: "woodbury-commons",
+//     projectType: "COMMERCIAL PROJECT",
+//     title: "Woodbury Commons",
+//     location: "Central Valley, NY",
+//     systemSize: "150.2 kW DC",
+//     imageSrc: "/images/projects/woodbury-commons.jpg",
+//     imageAlt: "Woodbury Commons Commercial Solar Installation",
+//     linkHref: "/projects/woodbury-commons",
+//   },
+//   {
+//     id: "white-plains-hospital",
+//     projectType: "HEALTHCARE PROJECT",
+//     title: "White Plains Hospital",
+//     location: "White Plains, NY",
+//     systemSize: "87.5 kW DC",
+//     imageSrc: "/images/projects/white-plains-hospital.jpg",
+//     imageAlt: "White Plains Hospital Solar Installation",
+//     linkHref: "/projects/white-plains-hospital",
+//   },
+//   {
+//     id: "montauk-point",
+//     projectType: "GOVERNMENT PROJECT",
+//     title: "Montauk Point Lighthouse",
+//     location: "Montauk, NY",
+//     systemSize: "42.3 kW DC",
+//     imageSrc: "/images/projects/montauk-point.jpg",
+//     imageAlt: "Montauk Point Lighthouse Solar Installation",
+//     linkHref: "/projects/montauk-point",
+//   },
+// ];
 
 // Completed projects data
-export const completedCommercialProjects: ProjectData[] = [
-  {
-    id: "nyc-public-school-127",
-    projectType: "EDUCATION PROJECT",
-    title: "NYC Public School 127",
-    location: "East Elmhurst, NY",
-    systemSize: "120.5 kW DC",
-    imageSrc: "/back_image.jpg",
-    imageAlt: "NYC Public School 127 Solar Installation",
-    linkHref: "/projects/nyc-public-school-127",
-  },
-  {
-    id: "riverdale-community-center",
-    projectType: "COMMUNITY PROJECT",
-    title: "Riverdale Community Center",
-    location: "Bronx, NY",
-    systemSize: "56.2 kW DC",
-    imageSrc: "/images/projects/riverdale-community.jpg",
-    imageAlt: "Riverdale Community Center Solar Installation",
-    linkHref: "/projects/riverdale-community-center",
-  },
-  {
-    id: "hudson-valley-farm",
-    projectType: "AGRICULTURAL PROJECT",
-    title: "Hudson Valley Farm",
-    location: "New Paltz, NY",
-    systemSize: "78.4 kW DC",
-    imageSrc: "/images/projects/hudson-valley-farm.jpg",
-    imageAlt: "Hudson Valley Farm Solar Installation",
-    linkHref: "/projects/hudson-valley-farm",
-  },
-  {
-    id: "tarrytown-municipal-building",
-    projectType: "MUNICIPAL PROJECT",
-    title: "Tarrytown Municipal Building",
-    location: "Tarrytown, NY",
-    systemSize: "64.9 kW DC",
-    imageSrc: "/images/projects/tarrytown-municipal.jpg",
-    imageAlt: "Tarrytown Municipal Building Solar Installation",
-    linkHref: "/projects/tarrytown-municipal-building",
-  },
-];
+// export const completedCommercialProjects: ProjectData[] = [
+//   {
+//     id: "nyc-public-school-127",
+//     projectType: "EDUCATION PROJECT",
+//     title: "NYC Public School 127",
+//     location: "East Elmhurst, NY",
+//     systemSize: "120.5 kW DC",
+//     imageSrc: "/back_image.jpg",
+//     imageAlt: "NYC Public School 127 Solar Installation",
+//     linkHref: "/projects/nyc-public-school-127",
+//   },
+//   {
+//     id: "riverdale-community-center",
+//     projectType: "COMMUNITY PROJECT",
+//     title: "Riverdale Community Center",
+//     location: "Bronx, NY",
+//     systemSize: "56.2 kW DC",
+//     imageSrc: "/images/projects/riverdale-community.jpg",
+//     imageAlt: "Riverdale Community Center Solar Installation",
+//     linkHref: "/projects/riverdale-community-center",
+//   },
+//   {
+//     id: "hudson-valley-farm",
+//     projectType: "AGRICULTURAL PROJECT",
+//     title: "Hudson Valley Farm",
+//     location: "New Paltz, NY",
+//     systemSize: "78.4 kW DC",
+//     imageSrc: "/images/projects/hudson-valley-farm.jpg",
+//     imageAlt: "Hudson Valley Farm Solar Installation",
+//     linkHref: "/projects/hudson-valley-farm",
+//   },
+//   {
+//     id: "tarrytown-municipal-building",
+//     projectType: "MUNICIPAL PROJECT",
+//     title: "Tarrytown Municipal Building",
+//     location: "Tarrytown, NY",
+//     systemSize: "64.9 kW DC",
+//     imageSrc: "/images/projects/tarrytown-municipal.jpg",
+//     imageAlt: "Tarrytown Municipal Building Solar Installation",
+//     linkHref: "/projects/tarrytown-municipal-building",
+//   },
+// ];
 
 // Residential projects data
 export const residentialProjects: ProjectData[] = [
@@ -177,14 +177,14 @@ export const residentialProjects: ProjectData[] = [
 // Team members data
 export const teamMembers: TeamMember[] = [
   {
-    id: "sarah-johnson",
-    name: "Sarah Johnson",
+    id: "surgeon-bc",
+    name: "Surgeon BC",
     position: "Chief Executive Officer",
     description:
-      "With over 15 years in renewable energy, Sarah leads Everest Solar's vision to make solar accessible for everyone. She previously managed large-scale solar projects at Fortune 500 companies and holds an MBA in Sustainable Business.",
-    imageSrc: "/team/sarah-johnson.jpg",
-    imageAlt: "Sarah Johnson - CEO of EverestSolar",
-    linkedin: "https://linkedin.com/in/sarahjohnson",
-    email: "sarah@everestsolar.com",
+      "With over 15 years in renewable energy, Surgeon leads Everest Solar's vision to make solar accessible for everyone. He previously managed large-scale solar projects at Fortune 500 companies.",
+    imageSrc: "/team/surgeon-bc.jpg",
+    imageAlt: "Surgeon BC - CEO of EverestSolar",
+    linkedin: "https://linkedin.com/in/surgeonbc",
+    email: "sbc@everestsolarinc.com",
   },
 ];

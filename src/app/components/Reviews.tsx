@@ -7,59 +7,50 @@ interface Review {
   rating: number;
   content: string;
   author: string;
-  title: string;
-  isWorstReview?: boolean;
 }
 
 const reviews: Review[] = [
   {
     id: 1,
-    rating: 4,
+    rating: 5,
     content:
-      "Everest Solar has been with me the entire time. Now 4+ years. There was an issue with a panel but it was repaired as quickly as possible even though there were supply chain issues. Happy with them and all their assistance, especially Ryan. Better than paying JCP&L.",
-    author: "DAVE F",
-    title: "OUR WORST REVIEW",
-    isWorstReview: true,
+      "I recently worked with Everest Solar to install a solar energy system on my home, and overall, the experience was excellent. From the initial consultation through installation and follow-up, the team was professional, responsive, and highly knowledgeable. \n\nWhat sets Everest Solar apart, in my opinion, is their customer service. Any questions I had were answered promptly, and they checked in after the installation to make sure everything was working properly. \n\nIf you're considering going solar, I highly recommend Everest Solar for their professionalism, quality of work, and commitment to customer satisfaction.",
+    author: "Ashok Parajuli",
   },
   {
     id: 2,
     rating: 5,
     content:
-      "The system works exactly as they described it would. This company's honesty is the main reason why I chose to go green with them.",
-    author: "JEFF L",
-    title: "VALUED RESIDENTIAL CUSTOMER",
+      "Very professional team from Everest Solar is still helping me to put the beautiful solar panels on my roof. They helped me to understand everything from the very beginning, communicating with the HOA and updating me on every steps. I’m super happy and excited so far.",
+    author: "Mohammad Waqas",
   },
   {
     id: 3,
     rating: 5,
     content:
-      "Over the last five years, I've had the pleasure of working with Everest Solar on more than a dozen innovative solar and storage projects in New York City, primarily on multifamily affordable housing. Their team is organized, communicative, and solution-oriented. Whether it's a straightforward ballasted installation or a rooftop canopy with an energy storage system, they always go the extra mile and get the job done right.",
-    author: "NOAH GINSBURG",
-    title: "EXECUTIVE DIRECTOR, NYSEIA (FORMERLY OF SOLAR ONE)",
+      "I have had experience in the solar industry for a while now, and I must say I was pleasantly surprised by the diversity and quality of service that Everest Solar offers. They truly CARE about families, providing a tailored and beneficial product/service. I highly recommend them to anyone considering making the switch to solar!",
+    author: "Gemma",
   },
   {
     id: 4,
     rating: 5,
     content:
-      "Excellent customer service from start to finish. The installation team was professional, clean, and efficient. Our energy bills have dropped significantly since going solar with Everest Solar.",
-    author: "SARAH M",
-    title: "RESIDENTIAL CUSTOMER",
+      "Surgeon is a professional and knowledgeable solar consultant. I was fully satisfied from his counseling and installed solar panels last year.",
+    author: "Bijay Tamang",
   },
   {
     id: 5,
     rating: 5,
     content:
-      "As a property manager, I've worked with several solar companies. Everest Solar stands out for their reliability and expertise. They handled our commercial installation flawlessly.",
-    author: "MICHAEL R",
-    title: "COMMERCIAL PROPERTY MANAGER",
+      "I really appreciate this solar company,they are very knowledgeable.They understand you and explain every details,It really makes difference in electricity bill,They are smooth and up to date.I highly recommended this company.",
+    author: "Sarika Sharma",
   },
   {
     id: 6,
-    rating: 4,
+    rating: 5,
     content:
-      "Great experience overall. The team was knowledgeable and the installation process was smooth. Only minor issue was with scheduling, but they made it right quickly.",
-    author: "JENNIFER K",
-    title: "HOMEOWNER",
+      "Surgeon is One of the professional Guy i have come across in this field So Far and service was phenomenal he made everything looks so easysatisfied custome 100%.",
+    author: "Hamza Noor",
   },
   {
     id: 7,
@@ -67,23 +58,19 @@ const reviews: Review[] = [
     content:
       "Everest Solar delivered exactly what they promised. Professional installation, great follow-up service, and our solar system is performing above expectations. Highly recommend!",
     author: "ROBERT T",
-    title: "SATISFIED CUSTOMER",
   },
   {
     id: 8,
     rating: 5,
     content:
-      "Working with Everest Solar was a pleasure from consultation to final inspection. Their team is knowledgeable, honest, and delivers quality work. Our solar investment is paying off beautifully.",
-    author: "LINDA W",
-    title: "LONG-TIME CUSTOMER",
+      "Very professional and experienced professionals. They explained me every detail and saved lots money. I would highly recommend.",
+    author: "Doma Sherpa",
   },
   {
     id: 9,
     rating: 5,
-    content:
-      "Impressed by their professionalism and attention to detail. The solar installation exceeded our expectations and the energy savings are substantial. Great company to work with!",
-    author: "JAMES H",
-    title: "BUSINESS OWNER",
+    content: "Thank you Everest Solar for helping me to save 30% of my electricity bill every month.",
+    author: "Wangche Sherpa",
   },
 ];
 
@@ -95,7 +82,7 @@ export default function Reviews() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % totalSlides);
-    }, 5000); // Auto-advance every 5 seconds
+    }, 8000); // Auto-advance every 5 seconds
 
     return () => clearInterval(timer);
   }, [totalSlides]);
@@ -136,15 +123,12 @@ export default function Reviews() {
 
                       {/* Content */}
                       <div className="flex-grow">
-                        <p className="text-slate-700 text-sm leading-relaxed mb-6">{review.content}</p>
+                        <p className="text-slate-700 text-sm leading-relaxed mb-6 whitespace-pre-line">{review.content}</p>
                       </div>
 
                       {/* Author */}
                       <div className="border-t border-slate-200 pt-4 mt-auto">
                         <div className="text-sky-600 font-semibold text-sm">{review.author}</div>
-                        <div className={`text-xs font-medium mt-1 ${review.isWorstReview ? "text-sky-600" : "text-sky-500"}`}>
-                          {review.title}
-                        </div>
                       </div>
                     </div>
                   ))}

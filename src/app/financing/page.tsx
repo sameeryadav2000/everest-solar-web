@@ -125,9 +125,6 @@ export default function FinancingPage() {
                   Make solar affordable with our comprehensive financing solutions. From zero-down solar loans to lease programs and PPAs,
                   our financial experts will find the perfect payment plan that fits your budget and maximizes your savings.
                 </p>
-                <button className="text-xs md:text-sm bg-transparent border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-3 md:px-6 py-2 md:py-3 rounded-md font-semibold transition-colors">
-                  SOLAR FINANCING
-                </button>
               </div>
             </div>
           </div>

@@ -135,15 +135,13 @@ export default function Home() {
             {/* Content section positioned absolutely within the image */}
             <div className="absolute inset-4 flex items-center justify-center md:top-1/2 md:right-0 md:transform md:translate-x-1/2 md:-translate-y-1/2 z-10">
               <div className="bg-white/95 backdrop-blur-sm p-4 md:p-8 rounded-lg shadow-lg max-w-sm lg:max-w-md">
-                <h1 className="text-base md:text-2xl font-bold text-sky-500 mb-3">ENTERPRISE-LEVEL SOLAR SOLUTIONS</h1>
+                <h1 className="text-base md:text-2xl font-bold text-sky-500 mb-3">RESIDENTIAL SOLAR SOLUTIONS</h1>
                 <div className="w-12 md:w-16 h-1 bg-sky-500 mb-3"></div>
                 <p className="text-gray-700 text-xs md:text-sm leading-relaxed mb-3">
-                  Monetize your property to earn income while saving on utility costs. Our in-house specialists will analyze your unique
-                  financial and sustainability goals to create a turn-key solar solution for you.
+                  Power your home with clean energy while dramatically reducing your monthly electricity bills. Our expert solar technicians
+                  provide seamless installation and ongoing support, helping homeowners achieve energy independence with premium solar panel
+                  systems designed to last decades.
                 </p>
-                <button className="text-xs md:text-sm bg-transparent border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-3 md:px-6 py-2 md:py-3 rounded-md font-semibold transition-colors">
-                  SOLAR FINANCING
-                </button>
               </div>
             </div>
           </div>
@@ -158,15 +156,13 @@ export default function Home() {
             {/* Content section positioned absolutely within the image */}
             <div className="absolute inset-4 flex items-center justify-center md:top-1/2 md:left-0 md:transform md:-translate-x-1/2 md:-translate-y-1/2 z-10">
               <div className="bg-white/95 backdrop-blur-sm p-4 md:p-8 rounded-lg shadow-lg max-w-sm lg:max-w-md">
-                <h1 className="text-base md:text-2xl font-bold text-sky-500 mb-3">RESIDENTIAL SOLAR</h1>
+                <h1 className="text-base md:text-2xl font-bold text-sky-500 mb-3">SOLAR MAINTENANCE</h1>
                 <div className="w-12 md:w-16 h-1 bg-sky-500 mb-3"></div>
                 <p className="text-gray-700 text-xs md:text-sm leading-relaxed mb-3">
-                  Monetize your property to earn income while saving on utility costs. Our in-house specialists will analyze your unique
-                  financial and sustainability goals to create a turn-key solar solution for you.
+                  Protect your solar investment with professional maintenance services that keep your system running at peak performance.
+                  Our certified technicians provide thorough cleaning, monitoring, and repairs to ensure maximum energy production and
+                  extend your system's lifespan for decades.
                 </p>
-                <button className="text-xs md:text-sm bg-transparent border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-3 md:px-6 py-2 md:py-3 rounded-md font-semibold transition-colors">
-                  RESIDENTIAL
-                </button>
               </div>
             </div>
           </div>

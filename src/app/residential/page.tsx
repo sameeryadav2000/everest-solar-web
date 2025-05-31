@@ -38,6 +38,67 @@ export default function ResidentialPage() {
         </div>
       </div>
 
+      {/* Tax Credit */}
+      <div className="w-[90%] md:w-[80%] mx-auto mt-8 md:mt-12">
+        <div className="relative w-full h-60 bg-gradient-to-r from-slate-700 via-slate-600 to-slate-500 overflow-hidden rounded-xl">
+          {/* Animated background overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-gray-600/20 via-slate-500/20 to-gray-400/20 animate-pulse"></div>
+
+          {/* Mobile Layout - Stacked */}
+          <div className="md:hidden flex flex-col items-center justify-center h-full px-4 text-center">
+            {/* Mobile circle */}
+            <div className="relative mb-4">
+              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 via-sky-500 to-blue-600 opacity-90 flex items-center justify-center border-4 border-white/30 shadow-2xl shadow-blue-400/30">
+                <div className="text-white font-bold text-lg drop-shadow-lg">30%</div>
+              </div>
+              <div className="absolute inset-0 w-20 h-20 rounded-full bg-blue-400/20 blur-xl animate-pulse"></div>
+            </div>
+
+            {/* Mobile content */}
+            <div className="bg-white/15 backdrop-blur-md p-4 rounded-xl shadow-xl border border-white/20 max-w-xs">
+              <h2 className="text-blue-200 font-bold text-lg mb-2 uppercase drop-shadow-lg">30% Tax Credit Going Away Soon</h2>
+              <p className="text-white/85 text-xs leading-relaxed drop-shadow-sm">
+                Don't miss the federal solar tax credit! Act now to secure maximum savings before it's reduced.
+              </p>
+            </div>
+          </div>
+
+          {/* Desktop Layout - Side by Side */}
+          <div className="hidden md:block">
+            {/* Central 30% Circle for desktop */}
+            <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-400 via-sky-500 to-blue-600 opacity-90 flex items-center justify-center border-4 border-white/30 shadow-2xl shadow-blue-400/30">
+                <div className="text-white font-bold text-2xl drop-shadow-lg">30%</div>
+              </div>
+              {/* Glow effect */}
+              <div className="absolute inset-0 w-32 h-32 rounded-full bg-blue-400/20 blur-xl animate-pulse"></div>
+            </div>
+
+            {/* Left content for desktop */}
+            <div className="absolute left-8 top-1/2 transform -translate-y-1/2 bg-white/15 backdrop-blur-md p-4 rounded-xl shadow-xl border border-white/20 max-w-xs">
+              <h2 className="text-blue-200 font-bold text-lg mb-2 uppercase drop-shadow-lg">Tax Credit</h2>
+              <p className="text-white/85 text-sm leading-relaxed drop-shadow-sm">Federal solar tax credit available now!</p>
+            </div>
+
+            {/* Right content for desktop */}
+            <div className="absolute right-8 top-1/2 transform -translate-y-1/2 bg-white/15 backdrop-blur-md p-4 rounded-xl shadow-xl border border-white/20 max-w-xs">
+              <h2 className="text-blue-200 font-bold text-lg mb-2 uppercase drop-shadow-lg">Going Away Soon</h2>
+              <p className="text-white/85 text-sm leading-relaxed drop-shadow-sm">Act now to secure maximum savings before it's reduced.</p>
+            </div>
+          </div>
+
+          {/* Enhanced decorative elements */}
+          <div className="absolute top-4 left-1/4 w-3 h-3 bg-blue-300/40 rounded-full animate-bounce"></div>
+          <div className="absolute bottom-6 left-1/3 w-4 h-4 bg-slate-300/30 rounded-full animate-bounce delay-300"></div>
+          <div className="absolute top-8 right-1/3 w-2 h-2 bg-blue-400/50 rounded-full animate-bounce delay-700"></div>
+          <div className="absolute bottom-4 right-1/4 w-3 h-3 bg-slate-400/40 rounded-full animate-bounce delay-1000"></div>
+
+          {/* Floating particles */}
+          <div className="absolute top-6 left-1/2 w-1 h-1 bg-white/40 rounded-full animate-ping"></div>
+          <div className="absolute bottom-8 left-2/3 w-1 h-1 bg-blue-300/60 rounded-full animate-ping delay-500"></div>
+        </div>
+      </div>
+
       {/* Residential Projects Section */}
       <div className="w-full py-8 md:py-12">
         <div className="w-[90%] md:w-[80%] mx-auto">

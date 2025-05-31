@@ -144,16 +144,11 @@ export default function FAQPage() {
               consultation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contact">
-                <button className="text-sm xl:text-md bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded transition-colors">
-                  Contact Our Experts
+              <a href="mailto:contact@everestsolarinc.com?subject=Service Area Inquiry&body=Hi, I would like to know if you serve my area. My location is:">
+                <button className="text-sm xl:text-md bg-blue-500 text-white font-medium py-3 px-6 rounded hover:bg-slate-500 transition-colors">
+                  Contact Us
                 </button>
-              </Link>
-              <Link href="/get-quote">
-                <button className="text-sm xl:text-md border-2 border-blue-600 text-blue-600 font-medium py-3 px-6 rounded hover:bg-blue-600 hover:text-white transition-colors">
-                  Get Free Quote
-                </button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

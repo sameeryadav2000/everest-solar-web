@@ -36,7 +36,7 @@ export default function Navbar() {
               alt="Company Logo"
               width={400}
               height={96}
-              className="h-14 lg:h-24 w-auto pointer-events-auto cursor-pointer"
+              className="h-14 lg:h-24 w-auto pointer-events-auto cursor-pointer hover:animate-pulse transition-transform duration-300 hover:scale-105"
               priority
             />
           </Link>
@@ -79,12 +79,12 @@ export default function Navbar() {
 
             {/* Desktop Navigation Links */}
             <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
-              <Link
+              {/* <Link
                 href="/commercial"
                 className="text-base xl:text-lg font-medium text-slate-700 hover:text-sky-500 hover:border-sky-500 transition-colors border-b-2 border-transparent pb-1"
               >
                 COMMERCIAL
-              </Link>
+              </Link> */}
               <Link
                 href="/residential"
                 className="text-base xl:text-lg font-medium text-slate-700 hover:text-sky-500 hover:border-sky-500 transition-colors border-b-2 border-transparent pb-1"
@@ -139,7 +139,7 @@ export default function Navbar() {
           >
             {/* Mobile header with logo and close button */}
             <div className="flex items-center justify-between p-4 border-b border-slate-400">
-              <Image src="/logo.png" alt="Company Logo" width={200} height={32} className="h-14 w-auto" />
+              <Image src="/logo/logo.png" alt="Company Logo" width={200} height={32} className="h-14 w-auto" />
               <button
                 onClick={toggleMobileMenu}
                 className="p-2 rounded-md bg-sky-500/30 hover:bg-sky-500/40 transition-colors"
@@ -171,13 +171,13 @@ export default function Navbar() {
               </div>
 
               {/* Main navigation links */}
-              <Link
+              {/* <Link
                 href="/commercial"
                 className="block text-base font-medium text-white hover:text-sky-300 transition-colors py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 COMMERCIAL
-              </Link>
+              </Link> */}
               <Link
                 href="/residential"
                 className="block text-base font-medium text-white hover:text-sky-300 transition-colors py-2"

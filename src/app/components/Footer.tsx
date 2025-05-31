@@ -56,9 +56,9 @@ export default function Footer() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 md:max-w-md md:mx-auto lg:ml-40 lg:mr-8">
               {/* Column 1 */}
               <div className="space-y-3">
-                <Link href="/commercial" className="block text-base font-medium hover:text-emerald-300 transition-colors">
+                {/* <Link href="/commercial" className="block text-base font-medium hover:text-emerald-300 transition-colors">
                   COMMERCIAL
-                </Link>
+                </Link> */}
                 <Link href="/residential" className="block text-base font-medium hover:text-emerald-300 transition-colors">
                   RESIDENTIAL
                 </Link>
